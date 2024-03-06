@@ -1,0 +1,25 @@
+       <!--index.html-->
+
+       <!DOCTYPE html>
+       <html lang="en>
+           <head>
+             <title>Project2_functions Assignment</title>
+             <meta charset="utf-8">
+             <script src="JS/main.js"></script>
+        </head>
+        <body>   
+           <!--A Paragraph to call the JS function==>
+           <p id="Concatenate" onclick="myFunction()">Click here! here!</p>
+        </body>
+      </html>
+
+      //main.js
+
+     //a function that uses the += operator
+     function myFunction() {
+         var sentence = "I am learning"; //creating the variable
+         sentence += " a lot from this couse!"; //uisng the += operator to      
+         add the variable
+         document.getElementById("Concatenate").innerHTML = sentence; 
+         //using document.gotElementById()
+     }
